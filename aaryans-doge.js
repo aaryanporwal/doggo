@@ -1,6 +1,5 @@
 const axios = require("axios");
 const ActionCable = require("actioncable-nodejs/src/actioncable.js");
-const dotenv = require("dotenv").config();
 
 const APP_ID = process.env.APP_ID;
 const APP_SECRET = process.env.APP_SECRET;

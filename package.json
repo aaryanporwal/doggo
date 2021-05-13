@@ -1,0 +1,17 @@
+{
+  "name": "rc-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emma-cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "actioncable-nodejs": "^1.0.4",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2"
+  }
+}

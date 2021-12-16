@@ -1,11 +1,12 @@
 const axios = require("axios");
 const ActionCable = require("actioncable-nodejs/src/actioncable.js");
+const dotenv = require("dotenv").config();
 
 const APP_ID = process.env.APP_ID;
 const APP_SECRET = process.env.APP_SECRET;
 
 const uri = `wss://recurse.rctogether.com/cable?app_id=${APP_ID}&app_secret=${APP_SECRET}`;
-
+// console.log(uri);
 let cable = new ActionCable(uri, {
   origin: "https://recurse.rctogether.com",
 });
@@ -55,10 +56,10 @@ function moveAaryanDoge(x, y) {
     .request(options)
     .then(function (response) {
       console.log("moveAaryanDoge::response");
-      console.log(response.data);
+      // console.log(response.data);
     })
     .catch(function (error) {
       console.log("moveAaryanDoge::error");
-      console.log(error.message);
+      // console.log(error.message);
     });
 }

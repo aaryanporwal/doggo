@@ -4,5 +4,7 @@
 
 Your own cute companion for virtual RC!
 
+This project uses RC's private API and tries to find the user's name (or a bone) on a large array of tiles and goes near them (like a pet 🐶🐕).
+
 ![vrc-doggo](https://user-images.githubusercontent.com/54525904/118391971-9b10a700-b654-11eb-8ba2-ac926fd179a1.gif)
 
